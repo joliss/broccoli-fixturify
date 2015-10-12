@@ -7,7 +7,7 @@
 Create a subdirectory tree with [fixturify](https://github.com/joliss/node-fixturify):
 
 ```javascript
-var fixtureTree = require('broccoli-fixturify');
+var Fixturify = require('broccoli-fixturify');
 
 var desiredDirectory = {
   'foo.txt': 'foo.txt contents',
@@ -16,12 +16,12 @@ var desiredDirectory = {
   }
 }
 
-var tree = fixtureTree(desiredDirectory);
+var node = new Fixturify(desiredDirectory);
 ```
 
 ## Documentation
 
-### `fixtureTree(fixturifyObjectTree)`
+### `new Fixturify(fixturifyObjectTree)`
 
 `fixturifyObjectTree` *{Object}*
 
