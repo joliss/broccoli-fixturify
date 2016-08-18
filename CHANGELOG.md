@@ -1,5 +1,7 @@
 # master
 
+# 1.0.0
+
 * Upgrade to fixturify ~0.3.0
 
 # 0.2.0
