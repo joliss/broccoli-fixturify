@@ -1,5 +1,7 @@
 # master
 
+* Upgrade to fixturify ~0.3.0
+
 # 0.2.0
 
 * Use broccoli-plugin base class
